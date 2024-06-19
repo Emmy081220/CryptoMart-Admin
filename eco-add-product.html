@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" dir="ltr" data-bs-theme="light" data-color-theme="Blue_Theme"
 	data-layout="vertical">
 
@@ -17,7 +17,14 @@
 		<link rel="stylesheet"
 			href="https://bootstrapdemos.adminmart.com/matdash/dist/assets/css/styles.css" />
 
-		<title>User Profile</title>
+		<title>Add Real Data Price</title>
+
+		<link rel="stylesheet"
+			href="https://bootstrapdemos.adminmart.com/matdash/dist/assets/libs/quill/dist/quill.snow.css">
+		<link rel="stylesheet"
+			href="https://bootstrapdemos.adminmart.com/matdash/dist/assets/libs/dropzone/dist/min/dropzone.min.css">
+		<link rel="stylesheet"
+			href="https://bootstrapdemos.adminmart.com/matdash/dist/assets/libs/select2/dist/css/select2.min.css">
 	</head>
 
 	<body>
@@ -39,6 +46,7 @@
 											class="fs-7"></iconify-icon>
 									</a>
 								</div>
+								
 
 							</div>
 							<div class="sidebarmenu">
@@ -67,65 +75,45 @@
 										<!-- Dashboard -->
 										<!-- ---------------------------------- -->
 										<li class="sidebar-item">
-											<a class="sidebar-link" href="/" id="get-url" aria-expanded="false">
+											<a class="sidebar-link" href="#" id="get-url" aria-expanded="false">
 												<iconify-icon icon="solar:atom-line-duotone"></iconify-icon>
-												<span class="hide-menu">Dashboard</span>
+												<span class="hide-menu">Dashboard 1</span>
 											</a>
 										</li>
-	
-	
+
+										<li class="sidebar-item">
+											<a class="sidebar-link"
+												href="https://bootstrapdemos.adminmart.com/matdash/dist/main/index2.html"
+												aria-expanded="false">
+												<iconify-icon icon="solar:chart-line-duotone"></iconify-icon>
+												<span class="hide-menu">Dashboard 2</span>
+											</a>
+										</li>
+
+										<li class="sidebar-item">
+											<a class="sidebar-link"
+												href="https://bootstrapdemos.adminmart.com/matdash/dist/main/index3.html"
+												aria-expanded="false">
+												<iconify-icon icon="solar:screencast-2-line-duotone"></iconify-icon>
+												<span class="hide-menu">Dashboard 3</span>
+											</a>
+										</li>
+
 										<li>
 											<span class="sidebar-divider"></span>
 										</li>
-	
+
 										<li class="nav-small-cap">
-											<span class="hide-menu">---</span>
+											<span class="hide-menu">Apps</span>
 										</li>
-	
-										<li class="sidebar-item">
-											<a class="sidebar-link"
-												href="/customers.html"><iconify-icon
-													icon="solar:user-line-duotone"></iconify-icon>Customers</a>
-										</li>
-	
-										<li class="sidebar-item">
-											<a class="sidebar-link"
-												href="app-email.html"><iconify-icon
-													icon="solar:letter-line-duotone"></iconify-icon>Broadcast Email</a>
-										</li>
-	
-										<li class="sidebar-item">
-											<a class="sidebar-link"
-												href="#"><iconify-icon
-													icon="solar:bill-list-line-duotone"></iconify-icon>Data Price</a>
-										</li>
-										<li class="sidebar-item">
-											<a class="sidebar-link"
-												href="#"><iconify-icon
-													icon="solar:bill-list-line-duotone"></iconify-icon>Data Fees</a>
-										</li>
-	
-										<li class="sidebar-item">
-											<a class="sidebar-link"
-												href="#"><iconify-icon
-													icon="solar:airbuds-case-minimalistic-line-duotone"></iconify-icon>V-Card Percent</a>
-										</li>
-	
-										<li class="sidebar-item">
-											<a class="sidebar-link" href="javascript:void(0)"
-												aria-expanded="false">
-												<iconify-icon icon="solar:widget-4-line-duotone"></iconify-icon>
-												<span class="hide-menu">Set P2P Percent</span>
-											</a>
-										</li>
-										
+
 										<li class="sidebar-item">
 											<a class="sidebar-link has-arrow" href="javascript:void(0)"
 												aria-expanded="false">
 												<iconify-icon icon="solar:cart-3-line-duotone"></iconify-icon>
-												<span class="hide-menu">Bank History</span>
+												<span class="hide-menu">Ecommerce</span>
 											</a>
-											<!-- <ul aria-expanded="false" class="collapse first-level">
+											<ul aria-expanded="false" class="collapse first-level">
 												<li class="sidebar-item">
 													<a class="sidebar-link"
 														href="https://bootstrapdemos.adminmart.com/matdash/dist/main/eco-shop.html">
@@ -151,8 +139,7 @@
 													</a>
 												</li>
 												<li class="sidebar-item">
-													<a class="sidebar-link"
-														href="https://bootstrapdemos.adminmart.com/matdash/dist/main/eco-add-product.html">
+													<a class="sidebar-link" href="eco-add-product.html">
 														<span class="icon-small"></span>Add Product
 													</a>
 												</li>
@@ -162,10 +149,82 @@
 														<span class="icon-small"></span>Edit Product
 													</a>
 												</li>
-											</ul> -->
+											</ul>
+										</li>
+										<li class="sidebar-item">
+											<a class="sidebar-link has-arrow" href="javascript:void(0)"
+												aria-expanded="false">
+												<iconify-icon icon="solar:widget-4-line-duotone"></iconify-icon>
+												<span class="hide-menu">Blog</span>
+											</a>
+											<ul aria-expanded="false" class="collapse first-level">
+												<li class="sidebar-item">
+													<a class="sidebar-link"
+														href="https://bootstrapdemos.adminmart.com/matdash/dist/main/blog-posts.html">
+														<span class="icon-small"></span>Blog
+														Posts
+													</a>
+												</li>
+												<li class="sidebar-item">
+													<a class="sidebar-link"
+														href="https://bootstrapdemos.adminmart.com/matdash/dist/main/blog-detail.html">
+														<span class="icon-small"></span>Blog
+														Details
+													</a>
+												</li>
+											</ul>
+										</li>
+										<li class="sidebar-item">
+											<a class="sidebar-link"
+												href="https://bootstrapdemos.adminmart.com/matdash/dist/main/page-user-profile.html"
+												aria-expanded="false">
+												<iconify-icon icon="solar:shield-user-line-duotone"></iconify-icon>
+												User Profile
+											</a>
+										</li>
+										<li class="sidebar-item">
+											<a class="sidebar-link"
+												href="https://bootstrapdemos.adminmart.com/matdash/dist/main/app-email.html"><iconify-icon
+													icon="solar:letter-line-duotone"></iconify-icon>Email</a>
+										</li>
+										<li class="sidebar-item">
+											<a class="sidebar-link"
+												href="https://bootstrapdemos.adminmart.com/matdash/dist/main/app-calendar.html"><iconify-icon
+													icon="solar:calendar-mark-line-duotone"></iconify-icon>Calendar</a>
+										</li>
+										<li class="sidebar-item">
+											<a class="sidebar-link"
+												href="https://bootstrapdemos.adminmart.com/matdash/dist/main/app-kanban.html"><iconify-icon
+													icon="solar:airbuds-case-minimalistic-line-duotone"></iconify-icon>Kanban</a>
+										</li>
+										<li class="sidebar-item">
+											<a class="sidebar-link"
+												href="https://bootstrapdemos.adminmart.com/matdash/dist/main/app-chat.html"><iconify-icon
+													icon="solar:chat-round-line-line-duotone"></iconify-icon>Chat</a>
+										</li>
+										<li class="sidebar-item">
+											<a class="sidebar-link"
+												href="https://bootstrapdemos.adminmart.com/matdash/dist/main/app-notes.html"><iconify-icon
+													icon="solar:document-text-line-duotone"></iconify-icon>Notes</a>
+										</li>
+										<li class="sidebar-item">
+											<a class="sidebar-link"
+												href="https://bootstrapdemos.adminmart.com/matdash/dist/main/app-contact.html"><iconify-icon
+													icon="solar:iphone-line-duotone"></iconify-icon>Contact Table</a>
+										</li>
+										<li class="sidebar-item">
+											<a class="sidebar-link"
+												href="https://bootstrapdemos.adminmart.com/matdash/dist/main/app-contact2.html"><iconify-icon
+													icon="solar:phone-line-duotone"></iconify-icon>Contact List</a>
+										</li>
+										<li class="sidebar-item">
+											<a class="sidebar-link"
+												href="https://bootstrapdemos.adminmart.com/matdash/dist/main/app-invoice.html"><iconify-icon
+													icon="solar:bill-list-line-duotone"></iconify-icon>Invoice</a>
 										</li>
 									</ul>
 								</nav>
+
 
 							</div>
 						</div>
@@ -188,6 +247,7 @@
 											class="fs-6"></iconify-icon>
 									</a>
 								</li>
+								
 							</ul>
 
 							<div class="d-block d-lg-none py-9 py-xl-0">
@@ -342,7 +402,6 @@
 										<!-- end notification Dropdown -->
 										<!-- ------------------------------- -->
 
-
 										<!-- ------------------------------- -->
 										<!-- start profile Dropdown -->
 										<!-- ------------------------------- -->
@@ -377,7 +436,8 @@
 														</div>
 													</div>
 													<div class="message-body">
-														<a href="page-user-profile.html"
+														<a
+															href="#"
 															class="p-2 dropdown-item h6 rounded-1">
 															My Profile
 														</a>
@@ -410,165 +470,7 @@
 						<!-- ------------------------------- -->
 						<!-- apps Dropdown in Small screen -->
 						<!-- ------------------------------- -->
-						<!--  Mobilenavbar -->
-						<div class="offcanvas offcanvas-start pt-0" data-bs-scroll="true"
-							tabindex="-1" id="mobilenavbar"
-							aria-labelledby="offcanvasWithBothOptionsLabel">
-							<nav class="sidebar-nav scroll-sidebar">
-								<div class="offcanvas-header justify-content-between">
-									<!-- <a
-										href="/"
-										class="text-nowrap logo-img">
-										<img
-											src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/images/logos/logo-icon.svg"
-											alt="Logo" />
-									</a> -->
-									<button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-										aria-label="Close"></button>
-								</div>
-								<div class="offcanvas-body pt-0" data-simplebar
-									style="height: calc(100vh - 80px)">
-									<ul id="sidebarnav">
-										<li class="sidebar-item">
-											<a class="sidebar-link has-arrow ms-0" href="javascript:void(0)"
-												aria-expanded="false">
-												<span>
-													<iconify-icon icon="solar:slider-vertical-line-duotone"
-														class="fs-7"></iconify-icon>
-												</span>
-												<span class="hide-menu">Apps</span>
-											</a>
-											<ul aria-expanded="false" class="collapse first-level my-3 ps-3">
-												<li class="sidebar-item py-2">
-													<a
-														href="https://bootstrapdemos.adminmart.com/matdash/dist/main/app-chat.html"
-														class="d-flex align-items-center">
-														<div
-															class="bg-primary-subtle rounded round-48 me-3 d-flex align-items-center justify-content-center">
-															<iconify-icon icon="solar:chat-line-bold-duotone"
-																class="fs-7 text-primary"></iconify-icon>
-														</div>
-														<div>
-															<h6 class="mb-0 bg-hover-primary">Chat Application</h6>
-															<span class="fs-11 d-block text-body-color">New messages
-																arrived</span>
-														</div>
-													</a>
-												</li>
-												<li class="sidebar-item py-2">
-													<a
-														href="https://bootstrapdemos.adminmart.com/matdash/dist/main/app-invoice.html"
-														class="d-flex align-items-center">
-														<div
-															class="bg-secondary-subtle rounded round-48 me-3 d-flex align-items-center justify-content-center">
-															<iconify-icon icon="solar:bill-list-bold-duotone"
-																class="fs-7 text-secondary"></iconify-icon>
-														</div>
-														<div>
-															<h6 class="mb-0 bg-hover-primary">Invoice App</h6>
-															<span class="fs-11 d-block text-body-color">Get latest
-																invoice</span>
-														</div>
-													</a>
-												</li>
-												<li class="sidebar-item py-2">
-													<a
-														href="https://bootstrapdemos.adminmart.com/matdash/dist/main/app-contact2.html"
-														class="d-flex align-items-center">
-														<div
-															class="bg-warning-subtle rounded round-48 me-3 d-flex align-items-center justify-content-center">
-															<iconify-icon icon="solar:phone-calling-rounded-bold-duotone"
-																class="fs-7 text-warning"></iconify-icon>
-														</div>
-														<div>
-															<h6 class="mb-0 bg-hover-primary">Contact Application</h6>
-															<span class="fs-11 d-block text-body-color">2 Unsaved
-																Contacts</span>
-														</div>
-													</a>
-												</li>
-												<li class="sidebar-item py-2">
-													<a
-														href="https://bootstrapdemos.adminmart.com/matdash/dist/main/app-email.html"
-														class="d-flex align-items-center">
-														<div
-															class="bg-danger-subtle rounded round-48 me-3 d-flex align-items-center justify-content-center">
-															<iconify-icon icon="solar:letter-bold-duotone"
-																class="fs-7 text-danger"></iconify-icon>
-														</div>
-														<div>
-															<h6 class="mb-0 bg-hover-primary">Email App</h6>
-															<span class="fs-11 d-block text-body-color">Get new emails</span>
-														</div>
-													</a>
-												</li>
-												<li class="sidebar-item py-2">
-													<a href="page-user-profile.html" class="d-flex align-items-center">
-														<div
-															class="bg-success-subtle rounded round-48 me-3 d-flex align-items-center justify-content-center">
-															<iconify-icon icon="solar:user-bold-duotone"
-																class="fs-7 text-success"></iconify-icon>
-														</div>
-														<div>
-															<h6 class="mb-0 bg-hover-primary">User Profile</h6>
-															<span class="fs-11 d-block text-body-color">learn more
-																information</span>
-														</div>
-													</a>
-												</li>
-												<li class="sidebar-item py-2">
-													<a
-														href="https://bootstrapdemos.adminmart.com/matdash/dist/main/app-calendar.html"
-														class="d-flex align-items-center">
-														<div
-															class="bg-primary-subtle rounded round-48 me-3 d-flex align-items-center justify-content-center">
-															<iconify-icon icon="solar:calendar-minimalistic-bold-duotone"
-																class="fs-7 text-primary"></iconify-icon>
-														</div>
-														<div>
-															<h6 class="mb-0 bg-hover-primary">Calendar App</h6>
-															<span class="fs-11 d-block text-body-color">Get dates</span>
-														</div>
-													</a>
-												</li>
-												<li class="sidebar-item py-2">
-													<a
-														href="https://bootstrapdemos.adminmart.com/matdash/dist/main/app-contact.html"
-														class="d-flex align-items-center">
-														<div
-															class="bg-secondary-subtle rounded round-48 me-3 d-flex align-items-center justify-content-center">
-															<iconify-icon icon="solar:smartphone-2-bold-duotone"
-																class="fs-7 text-secondary"></iconify-icon>
-														</div>
-														<div>
-															<h6 class="mb-0 bg-hover-primary">Contact List Table</h6>
-															<span class="fs-11 d-block text-body-color">Add new
-																contact</span>
-														</div>
-													</a>
-												</li>
-												<li class="sidebar-item py-2">
-													<a
-														href="https://bootstrapdemos.adminmart.com/matdash/dist/main/app-notes.html"
-														class="d-flex align-items-center">
-														<div
-															class="bg-warning-subtle rounded round-48 me-3 d-flex align-items-center justify-content-center">
-															<iconify-icon icon="solar:notes-bold-duotone"
-																class="fs-7 text-warning"></iconify-icon>
-														</div>
-														<div>
-															<h6 class="mb-0 bg-hover-primary">Notes Application</h6>
-															<span class="fs-11 d-block text-body-color">To-do and Daily
-																tasks</span>
-														</div>
-													</a>
-												</li>
-											</li>
-										</ul>
-									</div>
-								</nav>
-						</div>
-						</div>
+						
 						<div class="app-header with-horizontal">
 							<nav class="navbar navbar-expand-xl container-fluid p-0">
 								<ul class="navbar-nav align-items-center">
@@ -588,25 +490,8 @@
 												alt="matdash-img" />
 										</a>
 									</li>
-									<li
-										class="nav-item d-none d-xl-flex align-items-center nav-icon-hover-bg rounded-circle">
-										<a class="nav-link" href="javascript:void(0)" data-bs-toggle="modal"
-											data-bs-target="#exampleModal">
-											<iconify-icon icon="solar:magnifer-linear"
-												class="fs-6"></iconify-icon>
-										</a>
-									</li>
-									<li
-										class="nav-item d-none d-lg-flex align-items-center dropdown nav-icon-hover-bg rounded-circle">
-										<div class="hover-dd">
-											<a class="nav-link" id="drop2" href="javascript:void(0)"
-												aria-haspopup="true" aria-expanded="false">
-												<iconify-icon icon="solar:widget-3-line-duotone"
-													class="fs-6"></iconify-icon>
-											</a>
-											
-										</div>
-									</li>
+									
+									
 								</ul>
 								<div class="d-block d-xl-none">
 									<a
@@ -632,16 +517,7 @@
 										class="d-flex align-items-center justify-content-between px-0 px-xl-8">
 										<ul
 											class="navbar-nav flex-row mx-auto ms-lg-auto align-items-center justify-content-center">
-											<li class="nav-item dropdown">
-												<a href="javascript:void(0)"
-													class="nav-link nav-icon-hover-bg rounded-circle d-flex d-lg-none align-items-center justify-content-center"
-													type="button" data-bs-toggle="offcanvas"
-													data-bs-target="#mobilenavbar"
-													aria-controls="offcanvasWithBothOptions">
-													<iconify-icon icon="solar:sort-line-duotone"
-														class="fs-6"></iconify-icon>
-												</a>
-											</li>
+
 											<li class="nav-item">
 												<a
 													class="nav-link nav-icon-hover-bg rounded-circle moon dark-layout"
@@ -656,14 +532,7 @@
 														class="sun fs-6"></iconify-icon>
 												</a>
 											</li>
-											<li class="nav-item d-block d-xl-none">
-												<a class="nav-link nav-icon-hover-bg rounded-circle"
-													href="javascript:void(0)" data-bs-toggle="modal"
-													data-bs-target="#exampleModal">
-													<iconify-icon icon="solar:magnifer-line-duotone"
-														class="fs-6"></iconify-icon>
-												</a>
-											</li>
+
 
 											<!-- ------------------------------- -->
 											<!-- start notification Dropdown -->
@@ -821,11 +690,12 @@
 															</div>
 														</div>
 														<div class="message-body">
-															<a href="page-user-profile.html"
+															<a
+																href="#"
 																class="p-2 dropdown-item h6 rounded-1">
 																My Profile
 															</a>
-	
+															
 															<a
 																href="#"
 																class="p-2 dropdown-item h6 rounded-1">
@@ -860,7 +730,7 @@
 								<div class="row align-items-center">
 									<div class="col-12">
 										<div class="d-sm-flex align-items-center justify-space-between">
-											<h4 class="mb-4 mb-sm-0 card-title">User Profile</h4>
+											<h4 class="mb-4 mb-sm-0 card-title">Add Product</h4>
 											<nav aria-label="breadcrumb" class="ms-auto">
 												<ol class="breadcrumb">
 													<li class="breadcrumb-item d-flex align-items-center">
@@ -872,7 +742,7 @@
 													</li>
 													<li class="breadcrumb-item" aria-current="page">
 														<span class="badge fw-medium fs-2 bg-primary-subtle text-primary">
-															User Profile
+															Add Product
 														</span>
 													</li>
 												</ol>
@@ -882,510 +752,306 @@
 								</div>
 							</div>
 
-							<div class="card overflow-hidden">
-								<div class="card-body p-0">
-									<img
-										src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/images/backgrounds/profilebg.jpg"
-										alt="matdash-img" class="img-fluid">
-									<div class="row align-items-center">
-										<div class="col-lg-4 order-lg-1 order-2">
-											<div class="d-flex align-items-center justify-content-around m-4">
-												
-												<div class="text-center">
-													<iconify-icon icon="solar:phone-bold-duotone" width="24" height="24"></iconify-icon>
-													<h4 class="mb-0 fw-semibold lh-1">Phone</h4>
-													<p class="mb-0 ">Verified</p>
-												</div>
-												<div class="text-center">
-													<iconify-icon icon="solar:inbox-in-bold-duotone" width="24" height="24"></iconify-icon>
-													<h4 class="mb-0 fw-semibold lh-1">Email</h4>
-													<p class="mb-0 ">Unverified</p>
-												</div>
-											</div>
-										</div>
-										<div class="col-lg-4 mt-n3 order-lg-2 order-1">
-											<div class="mt-n5">
-												<div class="d-flex align-items-center justify-content-center mb-2">
-													<div
-														class="d-flex align-items-center justify-content-center round-110">
-														<div
-															class="border border-4 border-white d-flex align-items-center justify-content-center rounded-circle overflow-hidden round-100">
-															<img
-																src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/images/profile/user-1.jpg"
-																alt="matdash-img" class="w-100 h-100">
-														</div>
-													</div>
-												</div>
-												<div class="text-center">
-													<h5 class="mb-0">Rowland Emmanuel</h5>
-													<p class="mb-0">Designer</p>
-												</div>
-											</div>
-										</div>
-										<div class="col-lg-4 order-last">
-											<ul
-												class="list-unstyled d-flex align-items-center justify-content-center justify-content-lg-end my-3 mx-4 pe-4 gap-3">
-												
-												<li>
-													<button class="btn btn-danger text-nowrap">Deactivate User</button>
-												</li>
-											</ul>
-										</div>
-									</div>
-									<ul
-										class="nav nav-pills user-profile-tab justify-content-end mt-2 bg-primary-subtle rounded-2 rounded-top-0"
-										id="pills-tab" role="tablist">
-										
-										<li class="nav-item" role="presentation">
-											<button class="nav-link hstack gap-2 rounded-0 fs-12 py-6"
-												id="pills-followers-tab" data-bs-toggle="pill"
-												data-bs-target="#pills-followers" type="button" role="tab"
-												aria-controls="pills-followers" aria-selected="false">
-												<iconify-icon icon="solar:wallet-2-line-duotone" width="1.2em" height="1.2em"></iconify-icon>
-												<span class="d-none d-md-block">Accounts</span>
-											</button>
-										</li>
-										<li class="nav-item" role="presentation">
-											<button class="nav-link hstack gap-2 rounded-0 fs-12 py-6"
-												id="pills-friends-tab" data-bs-toggle="pill"
-												data-bs-target="#pills-friends" type="button" role="tab"
-												aria-controls="pills-friends" aria-selected="false">
-												<iconify-icon icon="solar:history-bold" width="1.2em" height="1.2em"></iconify-icon>
-												<span class="d-none d-md-block">History</span>
-											</button>
-										</li>
-										<li class="nav-item" role="presentation">
-											<button class="nav-link hstack gap-2 rounded-0 fs-12 py-6"
-												id="pills-gallery-tab" data-bs-toggle="pill"
-												data-bs-target="#pills-gallery" type="button" role="tab"
-												aria-controls="pills-gallery" aria-selected="false">
-												<iconify-icon icon="solar:history-bold" width="1.2em" height="1.2em"></iconify-icon>
-												<span class="d-none d-md-block">P2P History</span>
-											</button>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div class="tab-content" id="pills-tabContent">
-								
-								<div class="tab-pane fade show active" id="pills-followers" role="tabpanel"
-									aria-labelledby="pills-followers-tab" tabindex="0">
-									<div class="card shadow-none border">
+							<!-- start Basic Area Chart -->
+							<div class="row">
+								<div class="col-lg-8 ">
+									<div class="card">
 										<div class="card-body">
-											<h4 class="mb-3">Customer information</h4>
-											<p class="card-subtitle">CryptoMart Member since <span>January 2024</span></p>
-											<div class="vstack gap-3 mt-4">
-												<div class="hstack gap-6">
-													<iconify-icon icon="solar:accessibility-line-duotone" width="1.2em" height="1.2em"></iconify-icon>
-													<h6 class=" mb-0">Account Active</h6>
-												</div>
-												<div class="hstack gap-6">
-													<iconify-icon icon="solar:mailbox-line-duotone" width="1.2em" height="1.2em"></iconify-icon>
-													<h6 class=" mb-0">david@wrappixel.com</h6>
-												</div>
-												<div class="hstack gap-6">
-													<iconify-icon icon="solar:phone-calling-line-duotone" width="1.2em" height="1.2em"></iconify-icon>
-													<h6 class=" mb-0">0805618159</h6>
-												</div>
-												<div class="hstack gap-6">
-													<iconify-icon icon="solar:user-id-line-duotone" width="1.2em" height="1.2em"></iconify-icon>
-													<h6 class=" mb-0">ID: v5net36o</h6>
-												</div>
+											<div class="d-flex justify-content-between align-items-center mb-7">
+												<h4 class="card-title">General</h4>
+
+												<button class="navbar-toggler border-0 shadow-none d-md-none"
+													type="button" data-bs-toggle="offcanvas"
+													data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+													<i class="ti ti-menu fs-5 d-flex"></i>
+												</button>
 											</div>
+											<form action="#" class="form-horizontal">
+												<div class="mb-4">
+													<label class="form-label">Product Name <span
+															class="text-danger">*</span>
+													</label>
+													<input type="text" class="form-control" value="Product Name">
+													<p class="fs-2">A product name is required and recommended to be
+														unique.</p>
+												</div>
+												<div>
+													<label class="form-label">Description</label>
+													<div id="editor">
+													</div>
+													<p class="fs-2 mb-0">Set a description to the product for better
+														visibility.</p>
+												</div>
+											</form>
 										</div>
 									</div>
-									<div
-										class="d-sm-flex align-items-center justify-content-between mt-3 mb-4">
-										<h3
-											class="mb-3 mb-sm-0 fw-semibold d-flex align-items-center">User Accounts & Balances
-											
-										</h3>
-										
+									<div class="card">
+										<div class="card-body">
+											<h4 class="card-title mb-7">Media</h4>
+
+											<form action="#" class="dropzone dz-clickable mb-2">
+												<div class="dz-default dz-message">
+													<button class="dz-button" type="button">Drop files here
+														to upload</button>
+												</div>
+											</form>
+										</div>
 									</div>
-									<div class="row">
-										<div class=" col-md-6 col-xl-4">
-											<div class="card">
-												<div
-													class="card-body p-4 d-flex align-items-center gap-6 flex-wrap">
-													<img
-														src="assets/images/user.png"
-														alt="matdash-img" class="rounded-circle" width="40" height="40">
-													<div>
-														<h5 class="fw-semibold mb-0">0.00</h5>
-														<span class="fs-2 d-flex align-items-center">
-															<iconify-icon icon="solar:wallet-2-linear"></iconify-icon>Naira Balance
-														</span>
+									<div class="card">
+										<div class="card-body">
+											<h4 class="card-title mb-7">Variation</h4>
+
+											<form action="#">
+												<label class="form-label">Add Product Variations</label>
+												<div class="email-repeater mb-3">
+													<div data-repeater-list="repeater-group">
+														<div data-repeater-item class="row mb-3">
+															<div class="col-md-4">
+																<select class="select2 form-control">
+																	<option>Color</option>
+																	<option selected>Size</option>
+																	<option>Material</option>
+																	<option>Style</option>
+																</select>
+															</div>
+															<div class="col-md-4 mt-3 mt-md-0">
+																<input type="text" class="form-control"
+																	placeholder="Variation" />
+															</div>
+															<div class="col-md-2 mt-3 mt-md-0">
+																<button data-repeater-delete
+																	class="btn bg-danger-subtle text-danger" type="button">
+																	<i class="ti ti-x fs-5 d-flex"></i>
+																</button>
+															</div>
+														</div>
 													</div>
-													
+													<button type="button" data-repeater-create
+														class="btn bg-primary-subtle text-primary ">
+														<span class="fs-4 me-1">+</span>
+														Add another variation
+													</button>
 												</div>
-											</div>
+											</form>
 										</div>
-										<div class=" col-md-6 col-xl-4">
-											<div class="card">
-												<div
-													class="card-body p-4 d-flex align-items-center gap-6 flex-wrap">
-													<img
-														src="assets/images/user.png"
-														alt="matdash-img" class="rounded-circle" width="40" height="40">
-													<div>
-														<h5 class="fw-semibold mb-0">0.00</h5>
-														<span class="fs-2 d-flex align-items-center">
-															<iconify-icon icon="solar:wallet-2-linear"></iconify-icon>BTC Balance
-														</span>
+									</div>
+									<div class="card">
+										<div class="card-body">
+											<h4 class="card-title mb-7">Pricing</h4>
+
+											<form>
+												<div class="mb-7">
+													<label class="form-label">Base Price <span
+															class="text-danger">*</span>
+													</label>
+													<input type="text" class="form-control" value="Product Price">
+													<p class="fs-2">Set the product price.</p>
+												</div>
+												<div class="mb-7">
+													<label class="form-label">Discount Type</label>
+													<nav>
+														<div
+															class="nav nav-tabs justify-content-between align-items-center gap-9"
+															id="nav-tab" role="tablist">
+															<label for="radio1"
+																class="form-check-label form-check p-3  border gap-2 rounded-2 d-flex flex-fill justify-content-center cursor-pointer"
+																id="customControlValidation2" id="nav-home-tab"
+																data-bs-toggle="tab" data-bs-target="#nav-home"
+																aria-controls="nav-home">
+																<input type="radio" class="form-check-input" name="new-products"
+																	id="radio1" checked>
+																<span class="fs-4 text-dark">No Discount</span>
+															</label>
+															<label for="radio2"
+																class="form-check-label p-3 form-check border gap-2 rounded-2 d-flex flex-fill justify-content-center cursor-pointer"
+																id="customControlValidation2" id="nav-profile-tab"
+																data-bs-toggle="tab" data-bs-target="#nav-profile"
+																aria-controls="nav-profile">
+																<input type="radio" class="form-check-input" name="new-products"
+																	id="radio2">
+																<span class="fs-4 text-dark">Percentage %</span>
+															</label>
+															<label for="radio3"
+																class="form-check-label form-check p-3 border gap-2 rounded-2 d-flex flex-fill justify-content-center cursor-pointer"
+																id="customControlValidation2" id="nav-contact-tab"
+																data-bs-toggle="tab" data-bs-target="#nav-contact"
+																aria-controls="nav-contact">
+																<input type="radio" class="form-check-input" name="new-products"
+																	id="radio3">
+																<span class="fs-4 text-dark">Fixed Price</span>
+															</label>
+														</div>
+													</nav>
+													<div class="tab-content" id="nav-tabContent">
+														<div class="tab-pane fade mt-7" id="nav-profile" role="tabpanel"
+															aria-labelledby="nav-profile-tab" tabindex="0">
+															<form class="mt-3">
+																<div class="form-group">
+																	<label class="form-label">Set Discount Percentage <span
+																			class="text-danger">*</span>
+																	</label>
+																	<input type="range" class="form-range" id="customRange1"
+																		min="0" max="100" step="10">
+																	<p class="fs-2">Set a percentage discount to be applied on this
+																		product.</p>
+																</div>
+															</form>
+														</div>
+														<div class="tab-pane fade mt-7" id="nav-contact" role="tabpanel"
+															aria-labelledby="nav-contact-tab" tabindex="0">
+															<div class="mb-7">
+																<label class="form-label">Fixed Discounted Price <span
+																		class="text-danger">*</span>
+																</label>
+																<input type="text" class="form-control"
+																	placeholder="Discounted Price">
+																<p class="fs-2">Set the discounted product price. The product
+																	will be reduced at the
+																	determined fixed price.</p>
+															</div>
+														</div>
 													</div>
-													
 												</div>
-											</div>
-										</div>
-										<div class=" col-md-6 col-xl-4">
-											<div class="card">
-												<div
-													class="card-body p-4 d-flex align-items-center gap-6 flex-wrap">
-													<img
-														src="assets/images/user.png"
-														alt="matdash-img" class="rounded-circle" width="40" height="40">
-													<div>
-														<h5 class="fw-semibold mb-0">0.00</h5>
-														<span class="fs-2 d-flex align-items-center">
-															<iconify-icon icon="solar:wallet-2-linear"></iconify-icon>ETH Balance
-														</span>
+												<div class="row">
+													<div class="col-md-6">
+														<div class="mb-4">
+															<label class="form-label">
+																Tax Class <span class="text-danger">*</span>
+															</label>
+															<select class="form-select mr-sm-2" id="inlineFormCustomSelect">
+																<option selected>Select an option</option>
+																<option value="1">Tax Free</option>
+																<option value="2">Taxable Goods</option>
+																<option value="3">Downloadable Products</option>
+															</select>
+															<p class="fs-2">Set the product tax class.</p>
+														</div>
 													</div>
-													
-												</div>
-											</div>
-										</div>
-										<div class=" col-md-6 col-xl-4">
-											<div class="card">
-												<div
-													class="card-body p-4 d-flex align-items-center gap-6 flex-wrap">
-													<img
-														src="assets/images/user.png"
-														alt="matdash-img" class="rounded-circle" width="40" height="40">
-													<div>
-														<h5 class="fw-semibold mb-0">0.00</h5>
-														<span class="fs-2 d-flex align-items-center">
-															<iconify-icon icon="solar:wallet-2-linear"></iconify-icon>USDT (ERC20)
-														</span>
+													<div class="col-md-6">
+														<div class="mb-4">
+															<label class="form-label">VAT Amount (%) <span
+																	class="text-danger">*</span>
+															</label>
+															<input type="text" class="form-control" value>
+															<p class="fs-2">Set the product VAT about.</p>
+														</div>
 													</div>
-													
 												</div>
-											</div>
+											</form>
 										</div>
-										<div class=" col-md-6 col-xl-4">
-											<div class="card">
-												<div
-													class="card-body p-4 d-flex align-items-center gap-6 flex-wrap">
-													<img
-														src="assets/images/user.png"
-														alt="matdash-img" class="rounded-circle" width="40" height="40">
-													<div>
-														<h5 class="fw-semibold mb-0">0.00</h5>
-														<span class="fs-2 d-flex align-items-center">
-															<iconify-icon icon="solar:wallet-2-linear"></iconify-icon>USDT (TRC20) Balance
-														</span>
-													</div>
-													
-												</div>
-											</div>
-										</div>
+									</div>
+									<div class="form-actions">
+										<button type="submit" class="btn btn-primary">
+											Save changes
+										</button>
+										<button type="button" class="btn bg-danger-subtle text-danger ms-6">
+											Cancel
+										</button>
 									</div>
 								</div>
-
-								<div class="tab-pane fade" id="pills-friends" role="tabpanel"
-									aria-labelledby="pills-friends-tab" tabindex="0">
-									<div
-										class="d-sm-flex align-items-center justify-content-between mt-3 mb-4">
-										<h3 class="mb-3 mb-sm-0 fw-semibold d-flex align-items-center">Transaction History
-											
-										</h3>
-										
+								<div class="col-lg-4">
+									<div class="offcanvas-md offcanvas-end overflow-auto" tabindex="-1"
+										id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+										<div class="card">
+											<div class="card-body">
+												<h4 class="card-title mb-7">Thumbnail</h4>
+												<form action="#" class="dropzone dz-clickable mb-2">
+													<div class="dz-default dz-message">
+														<button class="dz-button" type="button">Drop Thumbnail here
+															to upload</button>
+													</div>
+												</form>
+												<p class="fs-2 text-center mb-0">
+													Set the product thumbnail image. Only *.png, *.jpg and *.jpeg image
+													files are accepted.
+												</p>
+											</div>
+										</div>
+										<div class="card">
+											<div class="card-body">
+												<div class="d-flex align-items-center justify-content-between mb-7">
+													<h4 class="card-title">Status</h4>
+													<div class="p-2 h-100 bg-success rounded-circle"></div>
+												</div>
+												<form action="#" class="form-horizontal">
+													<div>
+														<select class="form-select mr-sm-2  mb-2"
+															id="inlineFormCustomSelect">
+															<option selected>Published</option>
+															<option value="1">Draft</option>
+															<option value="2">Sheduled</option>
+															<option value="3">Inactive</option>
+														</select>
+														<p class="fs-2 mb-0">
+															Set the product status.
+														</p>
+													</div>
+												</form>
+											</div>
+										</div>
+										<div class="card">
+											<div class="card-body">
+												<h4 class="card-title mb-7">Product Details</h4>
+												<div class="mb-3">
+													<label class="form-label">Categories</label>
+													<select class="select2 form-control" multiple="multiple">
+														<option value>Computer</option>
+														<option value>Watches</option>
+														<option value>Headphones</option>
+														<option value>Beauty</option>
+														<option value>Fashion</option>
+														<option value>Footwear</option>
+													</select>
+													<p class="fs-2 mb-0">
+														Add product to a category.
+													</p>
+												</div>
+												<button type="button" class="btn bg-primary-subtle text-primary ">
+													<span class="fs-4 me-1">+</span>
+													Create New Category
+												</button>
+												<div class="mt-7">
+													<label class="form-label">Tags</label>
+													<select class="select2 form-control" multiple="multiple">
+														<option value>New</option>
+														<option value>trending</option>
+														<option value>Headphones</option>
+														<option value>Beauty</option>
+														<option value>Fashion</option>
+														<option value>Footwear</option>
+													</select>
+													<p class="fs-2 mb-0">
+														Add product to a category.
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="card">
+											<div class="card-body">
+												<h4 class="card-title mb-7">Product Template</h4>
+												<form action="#" class="form-horizontal">
+													<div>
+														<label class="form-label text-nowrap">Select a product
+															template</label>
+														<select class="form-select mr-sm-2  mb-2"
+															id="inlineFormCustomSelect">
+															<option selected>Default Template</option>
+															<option value="1">Fashion</option>
+															<option value="2">Office Stationary</option>
+															<option value="3">Electronics</option>
+														</select>
+														<p class="fs-2 mb-0">
+															Assign a template from your current theme to define how a single
+															product is displayed.
+														</p>
+													</div>
+												</form>
+											</div>
+										</div>
 									</div>
-									<div class="row ">
-										<table class="table search-table align-middle text-nowrap px-5">
-											<thead class="header-item">
-												
-												<th>Name</th>
-												<th>Email</th>
-												<th>Joined</th>
-												<th>UserID</th>
-												<th>Details</th>
-												<th>Status</th>
-											</thead>
-											<tbody>
-												<!-- start row -->
-												<tr class="search-items">
-													
-													<td>
-														<div class="d-flex align-items-center">
-															<img
-																src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/images/profile/user-10.jpg"
-																alt="avatar" class="rounded-circle" width="35" />
-															<div class="ms-3">
-																<div class="user-meta-info">
-																	<h6 class="user-name mb-0" data-name="Emma Adams">Emma
-																		Adams</h6>
-																	<span class="user-work fs-3"
-																		data-occupation="Web Developer">Web Developer</span>
-																</div>
-															</div>
-														</div>
-													</td>
-													<td>
-														<span class="usr-email-addr"
-															data-email="adams@mail.com">adams@mail.com</span>
-													</td>
-													<td>
-														<span class="usr-location" data-location="Boston, USA">22-03-2024</span>
-													</td>
-													<td>
-														<span class="usr-ph-no">7457638</span>
-													</td>
-													<td>
-														<div class="action-btn">
-															<a href="/page-user-profile.html" class="text-primary edit">
-																<iconify-icon icon="solar:eye-outline"></iconify-icon>
-															</a>
-														</div>
-													</td>
-													<td>Active</td>
-												</tr>
-												<!-- end row -->
-												<!-- start row -->
-												<tr class="search-items">
-													
-													<td>
-														<div class="d-flex align-items-center">
-															<img
-																src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/images/profile/user-2.jpg"
-																alt="avatar" class="rounded-circle" width="35" />
-															<div class="ms-3">
-																<div class="user-meta-info">
-																	<h6 class="user-name mb-0" data-name="Olivia Allen">Olivia
-																		Allen</h6>
-																	<span class="user-work fs-3" data-occupation="Web Designer">Web
-																		Designer</span>
-																</div>
-															</div>
-														</div>
-													</td>
-													<td>
-														<span class="usr-email-addr"
-															data-email="allen@mail.com">allen@mail.com</span>
-													</td>
-													<td>
-														<span class="usr-location" data-location="Boston, USA">22-03-2024</span>
-													</td>
-													<td>
-														<span class="usr-ph-no">7457638</span>
-													</td>
-													<td>
-														<div class="action-btn">
-															<a href="/page-user-profile.html" class="text-primary edit">
-																<iconify-icon icon="solar:eye-outline"></iconify-icon>
-															</a>
-														</div>
-													</td>
-													<td>Inactive</td>
-												</tr>
-												<!-- end row -->
-												<!-- start row -->
-												<tr class="search-items">
-													
-													<td>
-														<div class="d-flex align-items-center">
-															<img
-																src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/images/profile/user-3.jpg"
-																alt="avatar" class="rounded-circle" width="35" />
-															<div class="ms-3">
-																<div class="user-meta-info">
-																	<h6 class="user-name mb-0" data-name="Isabella Anderson">
-																		Isabella Anderson </h6>
-																	<span class="user-work fs-3"
-																		data-occupation="UX/UI Designer">UX/UI Designer</span>
-																</div>
-															</div>
-														</div>
-													</td>
-													<td>
-														<span class="usr-email-addr"
-															data-email="anderson@mail.com">anderson@mail.com</span>
-													</td>
-													<td>
-														<span class="usr-location" data-location="Boston, USA">22-03-2024</span>
-													</td>
-													<td>
-														<span class="usr-ph-no">7457638</span>
-													</td>
-													<td>
-														<div class="action-btn">
-															<a href="/page-user-profile.html" class="text-primary edit">
-																<iconify-icon icon="solar:eye-outline"></iconify-icon>
-															</a>
-														</div>
-													</td>
-													<td>Active</td>
-												</tr>
-												<!-- end row -->
-												<!-- start row -->
-												<tr class="search-items">
-													
-													<td>
-														<div class="d-flex align-items-center">
-															<img
-																src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/images/profile/user-4.jpg"
-																alt="avatar" class="rounded-circle" width="35" />
-															<div class="ms-3">
-																<div class="user-meta-info">
-																	<h6 class="user-name mb-0" data-name="Amelia Armstrong"> Amelia
-																		Armstrong </h6>
-																	<span class="user-work fs-3"
-																		data-occupation="Ethical Hacker">Ethical Hacker</span>
-																</div>
-															</div>
-														</div>
-													</td>
-													<td>
-														<span class="usr-email-addr"
-															data-email="armstrong@mail.com">armstrong@mail.com</span>
-													</td>
-													<td>
-														<span class="usr-location" data-location="Boston, USA">22-03-2024</span>
-													</td>
-													<td>
-														<span class="usr-ph-no">7457638</span>
-													</td>
-													<td>
-														<div class="action-btn">
-															<a href="/page-user-profile.html" class="text-primary edit">
-																<iconify-icon icon="solar:eye-outline"></iconify-icon>
-															</a>
-														</div>
-													</td>
-													<td>Inactive</td>
-												</tr>
-												<!-- end row -->
-
-											</tbody>
-										</table>
-									</div>
-								</div>
-
-								<div class="tab-pane fade" id="pills-gallery" role="tabpanel"
-									aria-labelledby="pills-gallery-tab" tabindex="0">
-									<div
-										class="d-sm-flex align-items-center justify-content-between mt-3 mb-4">
-										<h3 class="mb-3 mb-sm-0 fw-semibold d-flex align-items-center">P2P History
-											
-										</h3>
-										
-									</div>
-									<table
-										class="table text-nowrap align-middle table-custom mb-0 text-center last-items-borderless">
-										<thead>
-											<tr>
-												<th scope="col" class="fw-normal ps-0">Assigned
-												</th>
-												<th scope="col" class="fw-normal">Progress</th>
-												<th scope="col" class="fw-normal">Priority</th>
-												<th scope="col" class="fw-normal">Budget</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td class="">
-													<div class="d-flex align-items-center gap-6">
-														<img
-															src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/images/products/dash-prd-1.jpg"
-															alt="prd1" width="48" class="rounded" />
-														<div>
-															<h6 class="mb-0">Minecraf App</h6>
-															<span>Jason Roy</span>
-														</div>
-													</div>
-												</td>
-												<td>
-													<span>73.2%</span>
-												</td>
-												<td>
-													<span class="badge bg-success-subtle text-success">Low</span>
-												</td>
-												<td>
-													<span class="text-dark-light">$3.5k</span>
-												</td>
-											</tr>
-											<tr>
-												<td class="">
-													<div class="d-flex align-items-center gap-6">
-														<img
-															src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/images/products/dash-prd-3.jpg"
-															alt="prd1" width="48" class="rounded" />
-														<div>
-															<h6 class="mb-0">Modernize Dashboard</h6>
-															<span>Anil Kumar</span>
-														</div>
-													</div>
-												</td>
-												<td>
-													<span>73.2%</span>
-												</td>
-												<td>
-													<span class="badge bg-secondary-subtle text-secondary">Very
-														High</span>
-												</td>
-												<td>
-													<span class="text-dark-light">$3.5k</span>
-												</td>
-											</tr>
-											<tr>
-												<td class="">
-													<div class="d-flex align-items-center gap-6">
-														<img
-															src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/images/products/dash-prd-2.jpg"
-															alt="prd1" width="48" class="rounded" />
-														<div>
-															<h6 class="mb-0">Web App Project</h6>
-															<span>Mathew Flintoff</span>
-														</div>
-													</div>
-												</td>
-												<td>
-													<span>73.2%</span>
-												</td>
-												<td>
-													<span
-														class="badge bg-warning-subtle text-warning">Medium</span>
-												</td>
-												<td>
-													<span class="text-dark-light">$3.5k</span>
-												</td>
-											</tr>
-
-											<tr>
-												<td class="">
-													<div class="d-flex align-items-center gap-6">
-														<img
-															src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/images/products/dash-prd-4.jpg"
-															alt="prd1" width="48" class="rounded" />
-														<div>
-															<h6 class="mb-0">Dashboard Co</h6>
-															<span>George Cruize</span>
-														</div>
-													</div>
-												</td>
-												<td>
-													<span>73.2%</span>
-												</td>
-												<td>
-													<span class="badge bg-danger-subtle text-danger">High</span>
-												</td>
-												<td>
-													<span class="text-dark-light">$3.5k</span>
-												</td>
-											</tr>
-										</tbody>
-									</table>
 								</div>
 							</div>
+							<!-- end Basic Area Chart -->
 						</div>
 					</div>
 					
@@ -1603,6 +1269,8 @@
 
 			</div>
 			<div class="dark-transparent sidebartoggler"></div>
+			<script
+				src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/js/vendor.min.js"></script>
 			<!-- Import Js Files -->
 			<script
 				src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -1619,6 +1287,24 @@
 
 			<!-- solar icons -->
 			<script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.1.0/dist/iconify-icon.min.js"></script>
+			<script
+				src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/libs/quill/dist/quill.min.js"></script>
+			<script
+				src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/js/forms/quill-init.js"></script>
+			<script
+				src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+			<script
+				src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/libs/select2/dist/js/select2.full.min.js"></script>
+			<script
+				src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/libs/select2/dist/js/select2.min.js"></script>
+			<script
+				src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/js/forms/select2.init.js"></script>
+			<script
+				src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/libs/jquery.repeater/jquery.repeater.min.js"></script>
+			<script
+				src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/libs/jquery-validation/dist/jquery.validate.min.js"></script>
+			<script
+				src="https://bootstrapdemos.adminmart.com/matdash/dist/assets/js/forms/repeater-init.js"></script>
 		</body>
 
 		
